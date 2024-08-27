@@ -1,0 +1,27 @@
+.btn {
+  background-color: hsla(0, 0%, 56%, 0.321);
+  width: 70px;
+  height: 40px;
+  border-radius: 18px;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+  color: wheat;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.main {
+  width: 160px;
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 345px) {
+  .btn {
+    display: none;
+  }
+}
